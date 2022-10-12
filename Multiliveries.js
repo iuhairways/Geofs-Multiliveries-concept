@@ -28,7 +28,7 @@ async function init(){
     //Load liveries
 
 
-    await fetch("").then(res => res.json()).then(data => liveryobj = data)
+    await fetch("https://raw.githubusercontent.com/iuhairways/Geofs-Multiliveries-concept/main/liveries.json").then(res => res.json()).then(data => liveryobj = data)
 
 
     //remove original buttons
